@@ -64,11 +64,11 @@ const SaleCountdownBanner = () => {
                         <FlipUnit value={timeLeft.seconds} label="Seconds" />
                     </div>
                 </div>
-                <div className="relative">
+                <div className="relative w-full md:w-1/2 max-w-md mx-auto md:mx-0">
                     <img
-                        src="https://via.placeholder.com/400x300"
+                        src="https://via.placeholder.com/800x600"
                         alt="Sale"
-                        className="rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
+                        className="w-full h-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute top-0 right-0 bg-accent text-white text-xl font-bold py-2 px-4 rounded-bl-lg">
                         50% OFF
